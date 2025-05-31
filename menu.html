@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+
+    <!-- Font awesome links-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Google fonts links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Inspiration&family=Irish+Grover&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Toastify -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+  <body>
+    <header class="bg-primary text-white">
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="index.html">Restaurantista</a>
+        </div>
+        <ul class="navbar-menu">
+          <li><a href="index.html" class="text-white">Home</a></li>
+          <li>
+            <a href="menu.html" class="text-white active"
+              >Menu<i class="fa-solid fa-cart-shopping"></i>
+              <span id="cart-badge" class="badge">0</span></a
+            >
+          </li>
+        </ul>
+        <button class="navbar-burger"><i class="fa-solid fa-bars"></i></button>
+      </nav>
+    </header>
+
+    <div class="menu-layout">
+      <div class="menu">
+        <div class="menu-categories">
+          <div class="menu-category active">
+            <img
+              src="img/pasta.svg"
+              alt="Breakfast"
+              class="menu-category-img"
+            />
+            <div class="menu-category-info">
+              <h3 class="menu-category-title">Breakfast</h3>
+              <p class="text-gray">22 items in stock</p>
+            </div>
+          </div>
+          <div class="menu-category">
+            <img
+              src="img/pasta.svg"
+              alt="Breakfast"
+              class="menu-category-img"
+            />
+            <div class="menu-category-info">
+              <h3 class="menu-category-title">Breakfast</h3>
+              <p class="text-gray">22 items in stock</p>
+            </div>
+          </div>
+          <div class="menu-category">
+            <img
+              src="img/pasta.svg"
+              alt="Breakfast"
+              class="menu-category-img"
+            />
+            <div class="menu-category-info">
+              <h3 class="menu-category-title">Breakfast</h3>
+              <p class="text-gray">22 items in stock</p>
+            </div>
+          </div>
+          <div class="menu-category">
+            <img
+              src="img/pasta.svg"
+              alt="Breakfast"
+              class="menu-category-img"
+            />
+            <div class="menu-category-info">
+              <h3 class="menu-category-title">Breakfast</h3>
+              <p class="text-gray">22 items in stock</p>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="primary-title">Breakfast Menu</h1>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <img src="img/pica.webp" alt="Breakfast" class="menu-item-img" />
+              <div class="menu-item-title">
+                <h3>Margarita</h3>
+                <p class="menu-item-desc text-gray">
+                  Lorem ipsum dolor sit amet dolor.!
+                </p>
+              </div>
+            </div>
+            <div class="menu-item-footer">
+              <h3 class="menu-item-price">
+                <span class="text-gray">$</span>13.3
+              </h3>
+              <button class="menu-item-button">Add to cart</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <img src="img/pica.webp" alt="Breakfast" class="menu-item-img" />
+              <div class="menu-item-title">
+                <h3>Margarita</h3>
+                <p class="menu-item-desc text-gray">
+                  Lorem ipsum dolor sit amet dolor.!
+                </p>
+              </div>
+            </div>
+            <div class="menu-item-footer">
+              <h3 class="menu-item-price">
+                <span class="text-gray">$</span>13.3
+              </h3>
+              <button class="menu-item-button">Add to cart</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <img src="img/pica.webp" alt="Breakfast" class="menu-item-img" />
+              <div class="menu-item-title">
+                <h3>Margarita</h3>
+                <p class="menu-item-desc text-gray">
+                  Lorem ipsum dolor sit amet dolor.!
+                </p>
+              </div>
+            </div>
+            <div class="menu-item-footer">
+              <h3 class="menu-item-price">
+                <span class="text-gray">$</span>13.3
+              </h3>
+              <button class="menu-item-button">Add to cart</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <img src="img/pica.webp" alt="Breakfast" class="menu-item-img" />
+              <div class="menu-item-title">
+                <h3>Margarita</h3>
+                <p class="menu-item-desc text-gray">
+                  Lorem ipsum dolor sit amet dolor.!
+                </p>
+              </div>
+            </div>
+            <div class="menu-item-footer">
+              <h3 class="menu-item-price">
+                <span class="text-gray">$</span>13.3
+              </h3>
+              <button class="menu-item-button">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="invoice">
+        <div class="invoice-items">
+          <h2>Invoice</h2>
+
+          <div class="invoice-item">
+            <img
+              src="img/pica.webp"
+              alt="Pizza Margarita"
+              class="invoice-item-img"
+            />
+            <div class="invoice-item-details">
+              <h3>Pizza Margarita</h3>
+              <div class="invoice-item-quantity">
+                <button class="quantity-btn decrease">-</button>
+                <input type="text" class="quantity-input" value="2" />
+                <button class="quantity-btn increase">+</button>
+              </div>
+            </div>
+            <div class="invoice-item-price">
+              <h3>$25</h3>
+            </div>
+          </div>
+          <div class="invoice-item">
+            <img
+              src="img/pica.webp"
+              alt="Pizza Margarita"
+              class="invoice-item-img"
+            />
+            <div class="invoice-item-details">
+              <h3>Pizza Margarita</h3>
+              <div class="invoice-item-quantity">
+                <button class="quantity-btn decrease">-</button>
+                <input type="text" class="quantity-input" value="2" />
+                <button class="quantity-btn increase">+</button>
+              </div>
+            </div>
+            <div class="invoice-item-price">
+              <h3>$25</h3>
+            </div>
+          </div>
+          <div class="invoice-item">
+            <img
+              src="img/pica.webp"
+              alt="Pizza Margarita"
+              class="invoice-item-img"
+            />
+            <div class="invoice-item-details">
+              <h3>Pizza Margarita</h3>
+              <div class="invoice-item-quantity">
+                <button class="quantity-btn decrease">-</button>
+                <input type="text" class="quantity-input" value="2" />
+                <button class="quantity-btn increase">+</button>
+              </div>
+            </div>
+            <div class="invoice-item-price">
+              <h3>$25</h3>
+            </div>
+          </div>
+          <div class="invoice-item">
+            <img
+              src="img/pica.webp"
+              alt="Pizza Margarita"
+              class="invoice-item-img"
+            />
+            <div class="invoice-item-details">
+              <h3>Pizza Margarita</h3>
+              <div class="invoice-item-quantity">
+                <button class="quantity-btn decrease">-</button>
+                <input type="text" class="quantity-input" value="2" />
+                <button class="quantity-btn increase">+</button>
+              </div>
+            </div>
+            <div class="invoice-item-price">
+              <h3>$25</h3>
+            </div>
+          </div>
+        </div>
+        <div class="payment-summary">
+          <h3>Payment Summary</h3>
+          <div class="summary-details">
+            <p class="text-gray">Sub total</p>
+            <p>$131.2</p>
+          </div>
+          <div class="summary-details">
+            <p class="text-gray">Tax</p>
+            <p>$5.2</p>
+          </div>
+          <div class="summary-total">
+            <p class="text-gray">Total Payment</p>
+            <p>$136.4</p>
+          </div>
+          <button class="pay-button">Pay</button>
+        </div>
+      </div>
+    </div>
+    <!--Payment Modal-->
+
+    <div id="payment-modal" class="modal">
+      <div class="modal-content">
+        <h3>Payment</h3>
+        <hr />
+        <form id="payment-form" class="payment-form">
+          <div class="form-group">
+            <label for="card-number">Card Number</label>
+            <input
+              type="text"
+              id="card-number"
+              name="card-number"
+              placeholder="1234 1234 1234 1234"
+             required
+              
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="expiration-date">Expiration Date</label>
+            <input
+              type="text"
+              id="expiration-date"
+              name="expiration-date"
+              placeholder="MM/YY"
+             required
+              
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="cvv">CVV</label>
+            <input
+              type="text"
+              id="cvv"
+              name="cvv"
+              placeholder="123"
+              maxlength="3"
+            required
+            />
+          </div>
+
+          <button type="submit" class="pay-button">Pay</button>
+        </form>
+
+        <p class="payment-note">
+          Your personal data will be used to process your order, support your
+          experience throughout this website, and for other purposes described
+          in our privacy policy.
+        </p>
+      </div>
+    </div>
+
+    <!-- Success modal-->
+
+    <div class="success-modal" id="success-modal">
+      <div class="modal-content">
+        <h3>Order has been paid successfully</h3>
+        <div class="checkmark">
+          <i class="fa-solid fa-check"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/menu.js"></script>
+    <script src="js/payment.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>

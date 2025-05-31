@@ -1,0 +1,173 @@
+{
+  "categories": {
+
+    "Breakfast": [
+      {
+        "name": "Pancakes",
+        "price": 5.0,
+        "image": "img/pancake.webp",
+        "rating": 4.5,
+        "preparationTime": "10-15 mins"
+      },
+      {
+        "name": "Omlette",
+        "price": 3.7,
+        "image": "img/omlette.webp",
+        "rating": 5.0,
+        "preparationTime": "8-10 mins"
+      },
+      {
+        "name": "Mexican Breakfast",
+        "price": 3.7,
+        "image": "img/mexicanBrea.webp",
+        "rating": 5.0,
+        "preparationTime": "8-10 mins"
+      },
+      {
+        "name": "American Breakfast",
+        "price": 3.7,
+        "image": "img/americanBrea.png",
+        "rating": 5.0,
+        "preparationTime": "8-10 mins"
+      }
+    ],
+   "Soup": [
+      {
+        "name": "Tomato Soup",
+        "price": 3.5,
+        "image": "img/soupeTom.webp",
+        "rating": 4.5,
+        "preparationTime": "10-15 mins"
+      },
+      {
+        "name": "Broccoli Soup ",
+        "price": 3.7,
+        "image": "img/soupeBroc.webp",
+        "rating": 5.0,
+        "preparationTime": "8-10 mins"
+      },
+      {
+        "name": "Leek Soup",
+        "price": 3.5,
+        "image": "img/soupePoir.png",
+        "rating": 4.5,
+        "preparationTime": "8-10 mins"
+      },
+      {
+        "name": "Pumpkin Soup",
+        "price": 3.7,
+        "image": "img/soupePot.webp",
+        "rating": 5.0,
+        "preparationTime": "8-10 mins"
+      }
+    ],
+    "Appetizer": [
+      {
+        "name": "Cold cuts platter",
+        "price": 15.0,
+        "image": "img/viandee.png",
+        "rating": 4.5,
+        "preparationTime": "10-15 mins"
+      },
+      {
+        "name": "Assorted cheese",
+        "price": 3.7,
+        "image": "img/cheese.png",
+        "rating": 5.0,
+        "preparationTime": "8-10 mins"
+      }
+    ],
+    "Salad": [
+      {
+        "name": "Salad Russe",
+        "price": 5.0,
+        "image": "img/saladeRuse.webp",
+        "rating": 4.5,
+        "preparationTime": "10-15 mins"
+      },
+      {
+        "name": "Salad Grecque",
+        "price": 3.7,
+        "image": "img/saladeGre.webp",
+        "rating": 5.0,
+        "preparationTime": "8-10 mins"
+      },
+      {
+        "name": "Salad Mixed",
+        "price": 3.7,
+        "image": "img/saladeMix.webp",
+        "rating": 5.0,
+        "preparationTime": "8-10 mins"
+      },
+      {
+        "name": "Tuna Pasta Salad",
+        "price": 3.7,
+        "image": "img/saladePate.png",
+        "rating": 5.0,
+        "preparationTime": "8-10 mins"
+      }
+    ],
+    "Lunch": [
+      {
+        "name": "Margarita",
+        "price": 3.5,
+        "image": "img/margaritaa.webp",
+        "rating": 4.5,
+        "preparationTime": "10-15 mins"
+      },
+      {
+        "name": "Salad",
+        "price": 3.7,
+        "image": "img/salade.webp",
+        "rating": 5.0,
+        "preparationTime": "8-10 mins"
+      },
+      {
+        "name": "Burger",
+        "price": 3.5,
+        "image": "img/burger.jpg",
+        "rating": 4.5,
+        "preparationTime": "8-10 mins"
+      },
+      {
+        "name": "Cake",
+        "price": 3.7,
+        "image": "img/torte.png",
+        "rating": 5.0,
+        "preparationTime": "8-10 mins"
+      }
+    ],
+    "Dinner": [
+      {
+        "name": "Steak",
+        "price": 12.5,
+        "image": "img/steak.png",
+        "rating": 4.5,
+        "preparationTime": "20-25 mins"
+      },
+      {
+        "name": "Fish",
+        "price": 5.75,
+        "image": "img/fish.png",
+        "rating": 5.0,
+        "preparationTime": "15-20 mins"
+      }
+    ],
+    "Dessert": [
+      {
+        "name": "Cake",
+        "price": 4.0,
+        "image": "img/torte.png",
+        "rating": 4.7,
+        "preparationTime": "10-12 mins"
+      },
+      {
+        "name": "Ice Cream",
+        "price": 3.5,
+        "image": "img/ice-cream.png",
+        "rating": 4.8,
+        "preparationTime": "5-7 mins"
+      }
+    ]
+  }
+}

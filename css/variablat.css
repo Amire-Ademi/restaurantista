@@ -1,0 +1,13 @@
+:root{
+--primary-color:#f58100  ;
+--light-color:#f9f9f9;
+--gray-color :#929292;
+--primary-darker-color :#e07800;
+
+--title : 63px;
+
+--handlee-font:"Handlee", cursive;
+--poppins-font: "Poppins",sans-serif ;
+--inspiration-font: "Inspiration", cursive;
+--irish-font: "Irish Grover", system-ui;
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Chatarine Cros",
+    "role": "CEO",
+    "image": "img/person1.jpg",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas."
+  },
+  {
+    "name": "Ela Mett",
+    "role": "Lead Front-end",
+    "image": "img/person2.avif",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  
+  },
+  {
+    "name": "Nissa Lopez",
+    "role": "Lead Front-end",
+    "image": "img/person3.avif",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "name": "Laure Dubois",
+    "role": "Lead Front-end",
+    "image": "img/person4.jpg",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  }
+]
